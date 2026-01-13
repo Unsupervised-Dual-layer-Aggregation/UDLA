@@ -32,10 +32,10 @@ Experimental results on public datasets demonstrate that UDLA yields superior re
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: **Dual-Layer Architecture**: A unique approach that fuses features in two stages—first optimizing for precision using RDPAC, then for recall using CPRR.
-:heavy_check_mark: **Unsupervised & Automated**: Automatically selects the best CNN and Transformer features using graph-density effectiveness estimation, with zero need for labeled data.
-:heavy_check_mark: **Hybrid Feature Fusion**: seamlessly integrates architectures like Swin Transformer, ViT, ResNet, and DPN.
-:heavy_check_mark: **High Accuracy**: Outperforms state-of-the-art unsupervised methods on datasets like Flowers17 and Corel5k.
+* :heavy_check_mark: **Dual-Layer Architecture**: A unique approach that fuses features in two stages—first optimizing for precision using RDPAC, then for recall using CPRR.
+* :heavy_check_mark: **Unsupervised & Automated**: Automatically selects the best CNN and Transformer features using graph-density effectiveness estimation, with zero need for labeled data.
+* :heavy_check_mark: **Hybrid Feature Fusion**: seamlessly integrates architectures like Swin Transformer, ViT, ResNet, and DPN.
+* :heavy_check_mark: **High Accuracy**: Outperforms state-of-the-art unsupervised methods on datasets like Flowers17 and Corel5k.
 
 
 ## :rocket: Technologies ##

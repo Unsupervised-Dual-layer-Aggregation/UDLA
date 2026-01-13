@@ -1,5 +1,9 @@
 <h1 align="center">UDLA</h1>
 
+<div align="center">
+<img width="677" height="369" alt="UDLA_logo" src="https://github.com/user-attachments/assets/287911f7-f794-43da-ace8-7398b10c4497" />
+</div>
+
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/udla?color=56BEB8">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/udla?color=56BEB8">

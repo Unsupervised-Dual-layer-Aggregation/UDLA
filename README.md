@@ -32,23 +32,49 @@ Experimental results on public datasets demonstrate that UDLA yields superior re
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: **Dual-Layer Architecture**: A unique approach that fuses features in two stages—first optimizing for precision using RDPAC, then for recall using CPRR.
+:heavy_check_mark: **Unsupervised & Automated**: Automatically selects the best CNN and Transformer features using graph-density effectiveness estimation, with zero need for labeled data.
+:heavy_check_mark: **Hybrid Feature Fusion**: seamlessly integrates architectures like Swin Transformer, ViT, ResNet, and DPN.
+:heavy_check_mark: **High Accuracy**: Outperforms state-of-the-art unsupervised methods on datasets like Flowers17 and Corel5k.
+
 
 ## :rocket: Technologies ##
 
-The following tools were used in this project:
+The development and evaluation of UDLA relied on the following technologies and architectures:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+* [cite_start]**Implementation Framework**: Built upon the **Unsupervised Distance Learning Framework (UDLF)**, which provided the base for fusion methodologies and contextual rank aggregation methods.
+* **Visual Transformers (ViT)**:
+    * [cite_start]**Swin Transformer (SwinTF)** 
+    * [cite_start]**Vision Transformer (ViT-B16)** 
+* **Convolutional Neural Networks (CNNs)**:
+    * [cite_start]**ResNet152** (Residual Network) 
+    * [cite_start]**DPN92** (Dual Path Networks) 
+    * [cite_start]**SENet154** (Squeeze-and-Excitation Network) 
+    * [cite_start]**Xception** (Extreme Inception) 
+* **Rank Aggregation Methods**:
+    * [cite_start]**RDPAC** (Rank Diffusion with Assured Convergence) for precision-focused fusion[cite: 136].
+    * [cite_start]**CPRR** (Cartesian Product of Ranking References) for recall-focused fusion[cite: 151].
+    * [cite_start]**Borda Count** for effectiveness estimation ranking[cite: 124].
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+To run this code, you will need **Python 3.x** and the following dependencies. The project relies on the **Unsupervised Distance Learning Framework (UDLF)** for rank aggregation tasks.
+
+### Core Dependencies
+* **Python 3.8+**
+* [cite_start]**UDLF (Unsupervised Distance Learning Framework)**: Used for the implementation of fusion methods and contextual rank aggregation.
+* [cite_start]**NumPy & SciPy**: For matrix operations and distance calculations (Euclidean distance)[cite: 56].
+
+### Feature Extraction (Optional)
+[cite_start]If you intend to extract features from scratch using the models described in the paper (Swin Transformer, ViT, ResNet, etc.), you will also need:
+* **PyTorch** or **TensorFlow** (depending on your backbone implementation).
+* [cite_start]**Pre-trained weights** on ImageNet[cite: 24, 57].
+
+### Datasets
+[cite_start]The code is configured to work with the datasets evaluated in the paper[cite: 163, 164]:
+* Flowers17
+* Corel5k
+* Cub200
 
 ## :checkered_flag: Starting ##
 
@@ -73,7 +99,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/ademirj93" target="_blank">Ademir M. Junior</a>
 
 &#xa0;
 

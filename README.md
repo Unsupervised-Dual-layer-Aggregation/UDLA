@@ -42,19 +42,19 @@ Experimental results on public datasets demonstrate that UDLA yields superior re
 
 The development and evaluation of UDLA relied on the following technologies and architectures:
 
-* [cite_start]**Implementation Framework**: Built upon the **Unsupervised Distance Learning Framework (UDLF)**, which provided the base for fusion methodologies and contextual rank aggregation methods.
+👁️‍🗨️**Implementation Framework**: Built upon the **Unsupervised Distance Learning Framework (UDLF)**, which provided the base for fusion methodologies and contextual rank aggregation methods.
 * **Visual Transformers (ViT)**:
-    * [cite_start]**Swin Transformer (SwinTF)** 
-    * [cite_start]**Vision Transformer (ViT-B16)** 
+    👁️‍🗨️**Swin Transformer (SwinTF)** 
+    👁️‍🗨️**Vision Transformer (ViT-B16)** 
 * **Convolutional Neural Networks (CNNs)**:
-    * [cite_start]**ResNet152** (Residual Network) 
-    * [cite_start]**DPN92** (Dual Path Networks) 
-    * [cite_start]**SENet154** (Squeeze-and-Excitation Network) 
-    * [cite_start]**Xception** (Extreme Inception) 
+    👁️‍🗨️**ResNet152** (Residual Network) 
+    👁️‍🗨️**DPN92** (Dual Path Networks) 
+    👁️‍🗨️**SENet154** (Squeeze-and-Excitation Network) 
+    👁️‍🗨️**Xception** (Extreme Inception) 
 * **Rank Aggregation Methods**:
-    * [cite_start]**RDPAC** (Rank Diffusion with Assured Convergence) for precision-focused fusion[cite: 136].
-    * [cite_start]**CPRR** (Cartesian Product of Ranking References) for recall-focused fusion[cite: 151].
-    * [cite_start]**Borda Count** for effectiveness estimation ranking[cite: 124].
+    👁️‍🗨️**RDPAC** (Rank Diffusion with Assured Convergence) for precision-focused fusion[cite: 136].
+    👁️‍🗨️**CPRR** (Cartesian Product of Ranking References) for recall-focused fusion[cite: 151].
+    👁️‍🗨️**Borda Count** for effectiveness estimation ranking[cite: 124].
 
 ## :white_check_mark: Requirements ##
 
@@ -62,13 +62,13 @@ To run this code, you will need **Python 3.x** and the following dependencies. T
 
 ### Core Dependencies
 * **Python 3.8+**
-* [cite_start]**UDLF (Unsupervised Distance Learning Framework)**: Used for the implementation of fusion methods and contextual rank aggregation.
-* [cite_start]**NumPy & SciPy**: For matrix operations and distance calculations (Euclidean distance)[cite: 56].
+👁️‍🗨️**UDLF (Unsupervised Distance Learning Framework)**: Used for the implementation of fusion methods and contextual rank aggregation.
+👁️‍🗨️**NumPy & SciPy**: For matrix operations and distance calculations (Euclidean distance)[cite: 56].
 
 ### Feature Extraction (Optional)
 [cite_start]If you intend to extract features from scratch using the models described in the paper (Swin Transformer, ViT, ResNet, etc.), you will also need:
 * **PyTorch** or **TensorFlow** (depending on your backbone implementation).
-* [cite_start]**Pre-trained weights** on ImageNet[cite: 24, 57].
+👁️‍🗨️**Pre-trained weights** on ImageNet[cite: 24, 57].
 
 ### Datasets
 [cite_start]The code is configured to work with the datasets evaluated in the paper[cite: 163, 164]:

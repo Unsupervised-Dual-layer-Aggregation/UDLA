@@ -5,10 +5,10 @@
 </div>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/udla?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/udla?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/udla?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/udla?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Unsupervised-Dual-layer-Aggregation/udla?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Unsupervised-Dual-layer-Aggregation/udla?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Unsupervised-Dual-layer-Aggregation/udla?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/Unsupervised-Dual-layer-Aggregation/udla?color=56BEB8">
 </p>
 
 <p align="center">

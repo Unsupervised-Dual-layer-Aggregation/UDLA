@@ -86,7 +86,7 @@ _37th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI), 2024._
 
 If you use this code, please cite our paper:
 
-```bibtex```
+```bibtex
 @INPROCEEDINGS{10716343,
   author={Junior, Ademir Moreno and Pedronette, Daniel Carlos Guimarães},
   booktitle={2024 37th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)}, 
@@ -95,5 +95,6 @@ If you use this code, please cite our paper:
   pages={193-198},
   doi={10.1109/SIBGRAPI62404.2024.10716343}
 }
+```
 
 <a href="#top">Back to top</a>

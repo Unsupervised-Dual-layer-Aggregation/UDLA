@@ -66,12 +66,12 @@ To run this code, you will need **Python 3.x** and the following dependencies. T
 * 👁️‍🗨️**NumPy & SciPy**: For matrix operations and distance calculations (Euclidean distance)[cite: 56].
 
 ### Feature Extraction (Optional)
-[cite_start]If you intend to extract features from scratch using the models described in the paper (Swin Transformer, ViT, ResNet, etc.), you will also need:
+If you intend to extract features from scratch using the models described in the paper (Swin Transformer, ViT, ResNet, etc.), you will also need:
 * 🧠**PyTorch** or **TensorFlow** (depending on your backbone implementation).
 * 👁️‍🗨️**Pre-trained weights** on ImageNet[cite: 24, 57].
 
 ### Datasets
-[cite_start]The code is configured to work with the datasets evaluated in the paper[cite: 163, 164]:
+The code is configured to work with the datasets evaluated in the paper[cite: 163, 164]:
 * Flowers17
 * Corel5k
 * Cub200

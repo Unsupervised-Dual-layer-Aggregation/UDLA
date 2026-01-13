@@ -1,7 +1,7 @@
 <h1 align="center">UDLA</h1>
 
 <div align="center">
-<img width="677" height="369" alt="UDLA_logo" src="https://github.com/user-attachments/assets/287911f7-f794-43da-ace8-7398b10c4497" />
+  <img width="677" height="369" alt="UDLA_logo(1)" src="https://github.com/user-attachments/assets/b76c5a3a-6e48-42e2-b37f-8fffb358418a" />
 </div>
 
 <p align="center">
